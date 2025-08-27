@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <details class="accordion-nav">
+                <summary class="nav-link">Menú</summary>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </details>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./Foto_Lin.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Heilen Juliana Beltran Cardozo</h1>
+            <p class="profile-summary">
+               Estudiante dedicada, respetuosa y colaboradora. Destaca por su responsabilidad, empatía y buena comunicación con sus compañeros. Siempre muestra disposición para aprender y apoyar en equipo.
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto:heilenbeltran@outlook.com">heilenbeltran@outlook.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573011365275" target="_blank" rel="noopener noreferrer">+57 3011365275</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Formacion academica | Instituto Agropecuario San Pedro de Vijagual</h4>
+                    <p>Educacion Media | Año de Finalización: 2023</p>
+                    <P>Descripción:Etapa de formación orientada al fortalecimiento académico y la preparación para la vida profesional.</P>
+                </li>
+                <li>
+                    <h4>Formacion en Curso | Institucion Educativa CASD Jose Prudencio Padilla</h4>
+                    <p>Tecnica en Organizacion Empresarial| Año de Finalización: 2025</p>
+                    <p>Descripción:Formación orientada al desarrollo de competencias en gestión administrativa y apoyo organizacional.</p>
+                </li>
+            </ul>
+
+            
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Manejo de Excel Basico</li>
+                    <li>Redaccion de textos</li>
+                    <li>Digitacion rapida y precisa</li>
+                    <li>Manejo de correo electronico</li>
+                    <li>Elaboracion de informes basicos</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Proactividad</li>
+                    <li>Resolución de Problemas</li>
+                    <li>Empatia</li>
+                    <li>Trabajo en Equipo</li>
+                    <li>Organizacion del Tiempo</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./Foto_Lin.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="https://www.tiktok.com" target="_blank" class="linktree-link"><strong>tiktok</strong></a>
+            <a href="URL_LINKEDIN" target="_blank" class="linktree-link"><strong>LinkedIn</strong></a>
+            <a href="URL_PORTAFOLIO" target="_blank" class="linktree-link"><strong>Portafolio</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Heilen Beltran <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
